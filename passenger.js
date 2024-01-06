@@ -28,6 +28,9 @@ savedBtn.addEventListener("click", function(){
 })
 
 clearBtn.addEventListener("click", function(){
-
-
+    count = 0;
+    total = 0;
+    countEl.textContent = count;
+    totalEL.textContent = `${total}`;
+    saveEl.textContent = "";
 })
